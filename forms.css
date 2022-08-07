@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;700&display=swap');
+
+:root {
+  --primary-color: #cb0000;
+  --hover-primary-color: #680707;
+  --blue-color: #406181;
+  --gray: #ecf0f1;
+  --font: 'Montserrat', sans-serif;
+}
+
+html,
+body {
+  background-color: var(--gray);
+}
+
+.bg-white {
+  background-color: #ffffff;
+  background-color: #fff;
+  padding: 15px;
+}
+
+.formio-wizard-nav-container {
+  padding-top: 15px;
+}
+
+.form-fixed-menu {
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  background: #fff;
+  width: 100%;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid var(--gray);
+  padding-bottom: 0;
+  font-weight: bold;
+}
+
+.form-fixed-menu h6 {
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.form-fixed-menu .card,
+.form-fixed-menu .card.border {
+  border: none !important;
+}
+
+.form-fixed-menu .card .card-body {
+  padding: 0 !important;
+}
+
+.form-fixed-menu .col-xs-3 {
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.form-fixed-menu .col-xs-6 {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  background-color: var(--hover-primary-color) !important;
+  border-color: var(--hover-primary-color);
+  outline: none;
+}
+
+.form-fixed-menu__btn {
+  margin-bottom: 0 !important;
+  color: var(--blue-color);
+  background-color: transparent !important;
+  border: transparent !important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.form-fixed-menu__btn:hover {
+  color: var(--primary-color) !important;
+  background-color: transparent !important;
+}
+
+.form-fixed-menu__btn:focus,
+.form-fixed-menu__btn:active {
+  outline: none !important;
+  background-color: transparent !important;
+  color: var(--primary-color);
+}
+
+.form-fixed-menu__btn--prev {
+  font-size: 0;
+}
+
+.form-fixed-menu__btn--prev .fa {
+  font-size: 18px !important;
+}
+
+.formio-form {
+  padding-bottom: 80px;
+}
+
+.formio-form .wizard-page {
+  padding-top: 80px;
+}
+
+.formio-form .form-control {
+  background-color: #fdfdfd !important;
+  border-radius: 0;
+  border: 2px solid #e1e2e4;
+}
+
+.formio-form .form-group label {
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.page-content {
+  background-color: var(--gray);
+}
+
+.bg-light {
+  background-color: var(--gray);
+}
+
+.bg-red {
+  background-color: var(--primary-color);
+}
+
+.wcf-section {
+  padding-top: 80px;
+  font-family: var(--font);
+}
+
+.form-white-panel {
+  font-family: var(--font);
+}
+
+.form-white-panel .formio-component-file .fileSelector {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-transform: uppercase;
+  border: 2px solid var(--blue-color) !important;
+  font-weight: 500;
+  color: var(--blue-color);
+}
+
+.form-white-panel .formio-component-file .fileSelector:hover {
+  background-color: var(--gray);
+}
+
+.form-white-panel .form-check-label {
+  padding-left: 25px;
+  min-height: 25px;
+}
+
+.form-white-panel .form-check-input,
+.form-white-panel .checkbox input[type=checkbox],
+.form-white-panel .checkbox-inline input[type=checkbox] {
+  accent-color: var(--blue-color);
+  height: 18px;
+  width: 18px;
+  margin-left: -25px !important;
+}
+
+.form-white-panel .radio input[type=radio],
+.form-white-panel .radio-inline input[type=radio],
+.form-white-panel input[type=radio] {
+  accent-color: var(--blue-color);
+  color: var(--blue-color);
+  height: 18px;
+  width: 18px;
+}
+
+.form-white-panel .form-check-inline {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.form-white-panel .form-check-label span {
+  display: block;
+  font-weight: 500;
+  padding-top: 3px;
+}
+
+.form-white-panel .input-group {
+  width: 100%;
+}
+
+.form-white-panel .input-group .input-group-append {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  width: 34px;
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+}
+
+.form-white-panel .card,
+.form-white-panel .card.border {
+  border: none !important;
+}
+
+.form-fixed-menu .card .card-body {
+  padding: 0 !important;
+}
